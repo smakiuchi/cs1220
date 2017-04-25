@@ -1,0 +1,374 @@
+<!doctype html>
+<html>
+	<head>
+
+				<title>Homework3_1</title>
+<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link href="js/bootstrap.min.js" rel="stylesheet">
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="css/bootstrap.min.css"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="http://colorzilla.com/gradient-editor/#ffffff+0,d6d6d6+12,a3a3a3+25,666666+39,424242+49,2d2d2d+51,111111+60,000000+76,000000+91,000000+100" crossorigin="anonymous">
+    <script src="http://colorzilla.com/gradient-editor/#ffffff+0,d6d6d6+12,a3a3a3+25,666666+39,424242+49,2d2d2d+51,111111+60,000000+76,000000+91,000000+100"></script>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+      $(".dropdown-toggle").dropdown();
+});
+
+document.getElementByID("bgimg");
+
+document.getElementByID("bgimg").style.backgroundImage = "url('http://i1145.photobucket.com/albums/o513/skphoto6/Homework3_1bgpic_zpsvrrpu1jp.png') no-repeat right top";
+document.getElementByID("bgimg").style.background = "#000000 url('http://i1145.photobucket.com/albums/o513/skphoto6/Homework3_1bgpic_zpsvrrpu1jp.png') no-repeat right top";
+document.getElementByID("bgimg").style.backgroundAttachment = "url('http://i1145.photobucket.com/albums/o513/skphoto6/Homework3_1bgpic_zpsvrrpu1jp.png') scroll";
+document.getElementByID("bgimg").style.backgroundPosition = "url('http://i1145.photobucket.com/albums/o513/skphoto6/Homework3_1bgpic_zpsvrrpu1jp.png') center right";
+
+function myFunction() {
+     document.getElementById("bgimg").style.backgroundImage = "url(http://i1145.photobucket.com/albums/o513/skphoto6/Homework3_1bgpic_zpsvrrpu1jp.gif)";
+}
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d6d6d6+12,a3a3a3+25,666666+39,424242+49,2d2d2d+51,111111+60,000000+76,000000+91,000000+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 0%, #d6d6d6 12%, #a3a3a3 25%, #666666 39%, #424242 49%, 51%, #111111 60%, #000000 76%, #000000 91%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ffffff 0%,#d6d6d6 12%,#a3a3a3 25%,#666666 39%,#424242 49%, 51%,#111111 60%,#000000 76%,#000000 91%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ffffff 0%,#d6d6d6 12%,#a3a3a3 25%,#666666 39%,#424242 49%, 51%,#111111 60%,#000000 76%,#000000 91%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+
+
+
+</script>
+
+
+<style type="text/css">
+@import url("http://colorzilla.com/gradient-editor/#ffffff+0,d6d6d6+12,a3a3a3+25,666666+39,424242+49,2d2d2d+51,111111+60,000000+76,000000+91,000000+100");
+.tg {
+  border-collapse:collapse;
+  border-spacing:0;
+  border-color:#aabcfe;
+  border-width:1px;
+  border-style:solid transparent;
+  overflow:hidden;
+}
+.tg td{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  padding:19px 20px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#aabcfe;
+  color:#000000;
+  background-color:#e8edff;
+}
+.tg th{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  padding:19px 20px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#aabcfe;
+  color:#000000;
+  background-color:#b9c9fe;
+}
+.tg .tg-baqh{
+  background-color: #b9c9fe;
+  text-align:center;
+  vertical-align:top
+}
+.tg .tg-yw4l{
+  vertical-align:top
+}
+.tg .tg-j0tj{
+  background-color:#e8edff;
+  text-align:center;vertical-align:top
+}
+.tg .tg-7k3a{
+  background-color: #e8edff;
+}
+.tg .tg-xqmu{
+  background-color: #e8edff;
+}
+.tg .tg-ymcf{
+  background-color: #e8edff;
+}
+.tg .tg-amwm{
+  background-color: #b9c9fe;
+}
+.tg .tg-5frq{
+  background-color: #b9c9fe;
+}
+.tg .tg-wxgh{
+  background-color: #b9c9fe;
+}
+.tg .tg-6k2t{
+  background-color:#D2E4FC;vertical-align:top
+}
+.tg img{
+  width: 187.5px;
+  height: 125px;
+}
+
+.tg{
+  align-content: flex-end;
+  align-self: flex-end;
+  align-items: flex-end;
+}
+
+
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("http://i1145.photobucket.com/albums/o513/skphoto6/Homework3_1bgpic_zpsvrrpu1jp.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+     .bgimg {
+        background-attachment: scroll;
+    }
+}
+
+
+</style>
+
+<style>
+	@import url("bootstrap.css");
+	@import url("http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+	/* CSS used here will be applied after bootstrap.css */
+	/* Custom panel-heading colors in the panel components*/
+
+
+#bgimg {
+  clear:both;
+  position:relative;
+  float:right;
+  padding: 0 0 0 0;
+  border: 0 0 0 0 transparent;
+  margin: 0 0 0 0;
+  vertical-align: bottom;
+  background-position: right center;
+  background-attachment: local;
+  background-repeat:no-repeat;
+  background-blend-mode:luminosity;
+
+}
+
+#bgimg img{
+  clear: both;
+  position:relative;
+  float: right;
+  background-position: right center;
+  border: 0 0 0 0 transparent;
+  margin: 0 0 0 0;
+  padding-left: 300px ;
+  padding-right: 0;
+  width:1000px 300px 0 0 0;
+  height:646.4px;
+    top: 0;
+    right: 0;
+    left: 300px;
+
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+  background-color: #000000;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+	/* End custom panel-heading colors */
+
+</style>
+	</head>
+
+<body>
+<div bgcolor="#000000;" id="bgcolor;">
+
+  <table class="tg">
+  <tr>
+    <th class="tg-u2v5">$540.00</th>
+    <th class="tg-qjwu">VACUUMED CARBON FIBER COMPETITION CENTER DIFFUSER</th>
+    <th class="tg-9jam">F10 M5</th>
+    <th class="tg-wxgh"><img src="https://www.autotecknic.com/v/vspfiles/photos/ATK-BM-0350-2.jpg" class="container-fluid;"></th>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">$220.00</td>
+    <td class="tg-7k3a">DRY CARBON FIBER FENDER LIGHT TRIMS</td>
+    <td class="tg-xqmu">F06 GRAN-COUPE / F12 CABRIO / F13 COUPE | M6</td>
+    <td class="tg-ymcf"><img src="https://www.octanemotorsports.com/images/ATK-BM-0213.jpg" class="container-fluid;"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">$80.00</td>
+    <td class="tg-amwm">LOW-KICK TRUNK SPOILER</td>
+    <td class="tg-5frq">BMW F30 3-SERIES SEDAN</td>
+    <td class="tg-wxgh"><img src="http://www.autotecknic.com/v/vspfiles/photos/ATK-BM-0084-2.jpg" class="container-fluid;"></td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">$150.00</td>
+    <td class="tg-7k3a">REPLACEMENT DUAL-SLATS GLAZING BLACK FRONT GRILLES</td>
+    <td class="tg-xqmu">F10 5-SERIES</td>
+    <td class="tg-ymcf"><img src="https://www.autotecknic.com/v/vspfiles/photos/ATK-BM-0067-DS-GB-2.jpg" class="container-fluid;"></td>
+  </tr>
+</table>
+
+  <div id="bgimg;">
+    <img src="http://i1145.photobucket.com/albums/o513/skphoto6/Homework3_1bgpic_zpsvrrpu1jp.jpg" class="bgimg">
+  </div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Real Carbon Fiber</a>
+  <a href="#">Dry Carbon Fiber</a>
+  <a href="#">ABS Plastic</a>
+  <a href="#">Gloss</a>
+</div>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<br />
+
+
+</footer>
+</div>
+</html>
