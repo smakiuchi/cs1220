@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+	<head>
+
+				<title>Homework 3</title>
+<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link href="js/bootstrap.min.js" rel="stylesheet">
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="css/bootstrap.min.css"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+</script>
+
+<style>
+	@import url("bootstrap.css");
+	@import url("http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+	/* CSS used here will be applied after bootstrap.css */
+	/* Custom panel-heading colors in the panel components*/
+
+#accordion{
+	clear: both;
+	float: left;
+	width: 300px;
+	position: fixed;
+}
+
+#video{
+	clear: both;
+	float: right;
+	width: 300;
+	height: 200;
+	vertical-align: top;
+	position: relative;
+}
+
+#table{
+	clear: both;
+	float: right;
+	width: 400px;
+	font-family: Georgia;
+	border: 5px solid black;
+	margin-top: -20px;
+	background-image: none;
+	background-color: #424242;
+	color: #ffffff;
+
+}
+
+
+
+#panel-title{
+	clear: both;
+	float: right;
+	width: 400px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-menu{
+	position: relative;
+}
+
+#bs-example-navbar-collapse-1{
+  border: 0px solid black;
+  background-color: transparent;
+}
+
+form{
+	width: 400px;
+}
+
+	/* End custom panel-heading colors */
+</style>
+	</head>
+
+
+
+<body bgcolor="white">
+
+<header class="navbar-inverse" role="banner">
+  				<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    			<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      		<a class="navbar-brand" href="#">Carbon Fiber Marketplace</a>
+    			</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav">
+        			<li class="active"><a href="Homework3_1.html">SHOP NOW <span class="sr-only">(current)</span></a></li>
+        			<li class="dropdown">
+          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+          	<ul class="dropdown-menu">
+            	<li class="dropdown-header"><a href="https://www.autotecknic.com/carbon-fiber-trunk-spoilers-s/209.htm" target="_blank">Exterior Parts</a></li>
+            	<li class="dropdown-header"><a href="https://www.autotecknic.com/competition-shift-levers-s/187.htm" target="_blank">Interior Parts</a></li>
+            	<li class="dropdown-header"><a href="https://www.autotecknic.com/carbon-fiber-engine-parts-s/201.htm" target="_blank">Engine Parts</a></li>
+							<li class="dropdown-header"><a href="https://www.autotecknic.com/carbon-fiber-gifts-s/179.htm" target="_blank">Etc</a></li>
+          	</ul>
+        			</li>
+      			</ul>
+      	    			</div><!-- /.navbar-collapse -->
+  				</div><!-- /.container-fluid -->
+				</header>
+
+
+
+<div class="panel panel-primary" id="panel-title">
+<!-- Default panel contents -->
+				<div class="panel-heading">
+    			<h4><b>Carbon Fiber specifications (composites)</b></h4>
+				</div>
+</div>
+<!-- Table -->
+<table class="table" id="table">
+  <thead class="thead" id="thead">
+    <tr>
+      <th>Properties</th>
+			<th>Stats</th>
+      <th>Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Tensile Strength</th>
+      <td>High</td>
+      <td>Up to 1000 ksi (7GPa)</td>
+    </tr>
+    <tr>
+      <th scope="row">Elasticity</th>
+      <td>Very High</td>
+      <td>Modulus may exceed that of steel</td>
+    </tr>
+		<tr>
+			<th scope="row">Density</th>
+			<td>Low</td>
+			<td>114 lb/ft³ (1800 kg/m³)</td>
+		</tr>
+		<tr>
+			<th scope="row">Weight</th>
+			<td>Light</td>
+			<td>Could be as light as ABS plastic</td>
+		</tr>
+  </tbody>
+</table>
+
+
+<!-- collapsible panel -->
+<div class="bs-example">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">What is Carbon Fiber?</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <p>Carbon fiber, or more known as carbon fiber reinforced polymer, is an extremely strong and light fiber-reinforced plastic which contains carbon fibers. Carbon fibers can be expensive to produce but are commonly used wherever high strength-to-weight ratio and rigidity are required, such as aerospace, automotive, civil engineering, sports goods and an increasing number of other consumer and technical applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		</body>
+<br />
+<div class="container-fluid">
+<div style="clear:both;">
+	<div align="left">
+		<body contenteditable="false">
+			<form action="../Homework 1 - Form" method="post" target="_blank">
+					<b><i><em><font style="color:hsl(0, 6%, 87%);" size="2;">Developed by Sean Makiuchi</font></em></i></b><br>
+					<b><em><font style="color:hsl(0, 6%, 87%);" size="2;"><span style="text-decoration: underline;">Tell me what you think about it:</span></font></em></b><br>
+						<textarea class="wideInput" type="text" name="comments" style="font-size:12pt; height:120px; width:200px;" maxlength="100"></textarea><br>
+						<input type="submit" value="Submit">
+							<img src="http://hdwallpaperia.com/wp-content/uploads/2014/01/Gran-Turismo-6-Wallpaper-Games-Android.jpg" style="position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;">
+			</form>
+		</body>
+	</div>
+</div>
+</div>
+<div class="container-fluid">
+<iframe id="video" src="https://www.youtube.com/embed/504I_hJDFck" frameborder="0" allowfullscreen></iframe>
+</div>
+<br />
+<br />
+<br />
+<hr style="border:1px dashed black; lineheight:0;"></hr>
+<div style="padding:1px;">
+	<p>
+		<b><font style="color: #ffffff;" size="2;" valign="bottom">DISCLAIMER: This webpage only serves for the school assignment.</font></b><br>
+	</p>
+</div>
+</html>
